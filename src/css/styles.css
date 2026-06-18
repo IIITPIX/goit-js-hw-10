@@ -16,3 +16,79 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+#datetime-picker {
+  padding-left: 16px;
+  height: 40px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#datetime-picker:hover {
+  border-radius: 4px;
+}
+.input-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.timer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+
+  width: 346px;
+  height: 72px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: 0;
+  background: #4e75ff;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+.field {
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+
+  /* line-height: 48px; */
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
